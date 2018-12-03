@@ -2,6 +2,10 @@
 
 UGUI Button expand library.
 
+## Screenshots
+
+<img src="/screenshots/UButtonExpand_screen_record_1.0.0.gif" alt="UButtonExpand_screen_record_1.0.0.gif" title="UButtonExpand_screen_record_1.0.0.gif" width="729" height="300" />
+
 ## Usage
 
 #### ButtonLongClickListener
@@ -16,7 +20,7 @@ Add this script to your Button object, then init with code:
 PositionTransformer mPositionTransformer;
 
 void Start () {
-	mPositionTransformer.init (5, PositionTransformer.TRANSFORM_DIRECTION.X_AXIS);
+	mPositionTransformer.init (10, PositionTransformer.TRANSFORM_DIRECTION.Y_AXIS);
 }
 ```
 
@@ -25,6 +29,9 @@ void Start () {
 Enjoy it😄!
 
 ## Change logs
+
+### 1.0.0(2018-12-3)
+- Fix bug
 
 ### 0.9.0(2017-11-5)
 - First release
